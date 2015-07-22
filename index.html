@@ -14,7 +14,9 @@
 
 <div data-role="page" id="home">
   <div data-role="header">
+    <a href="#menu" data-icon="arrow-l">左</a>
     <h1>ホーム</h1>
+    <a href="#menu" data-icon="arrow-r">右</a>
   </div>
   <div data-role="content">
     <p>こんにちは</p>
@@ -26,8 +28,8 @@
   <p><a href="#menu" data-role="button" data-icon="gear" data-inline="true">ボタン</a></p>
 
   <div data-role="controlgroup">
-    <a href="#menu" data-role="button" data-icon="user" data-theme="b">User</a>
-    <a href="#menu" data-role="button" data-icon="power" data-theme="c">>Power</a>
+    <a href="#menu" data-role="button" data-icon="user">User</a>
+    <a href="#menu" data-role="button" data-icon="power">Power</a>
     <a href="#menu" data-role="button" data-icon="location">Location</a>
   </div>
 
@@ -37,7 +39,7 @@
   </div>
 </div>
 
-<div data-role="page" id="menu">
+<div data-role="page" id="menu" data-add-back-btn="true">
   <div data-role="header">
     <h1>メニュー</h1>
   </div>
